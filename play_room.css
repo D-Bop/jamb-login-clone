@@ -1,0 +1,20 @@
+body{
+    background-color: blue;
+}
+.container{
+    width: 80%;
+}
+.playbox{
+    margin: auto;
+    margin-left: 200px;
+    margin-top: 40px;
+    border: 3px solid black;
+    width: 400px;
+    height: 400px;
+    position: relative;
+}
+.playbox h1{
+    position: absolute;
+    top: 200px;
+    right: 20px;
+}

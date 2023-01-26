@@ -1,0 +1,108 @@
+body{
+    background-image: url("/Code/Css Crashcourse/CSS cheat sheet/CSS/background_logo.jpg");
+    background-size: cover;
+}
+.container{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.jamb-image{
+    display: flex;
+    justify-content: center;
+}
+#box{
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 360px;
+    height: 380px;
+    box-shadow: 0 0 6px grey;
+}
+.sign h2{
+    margin: auto;
+    padding-top: 30px;
+    padding-left: 10px;
+    font-family: sans-serif;
+    color: rgb(104, 102, 102);
+    font-size: large;
+}
+.form1 input[type="email"] {
+    border: 1px;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 320px;
+    height: 30px;
+    box-sizing: border-box;
+    -webkit-transition: 0.1s;
+    transition: 0.1ss;
+    outline: none;
+}
+.form1 input[type="email"]:focus {
+    border: 1px solid grey;
+}
+.form2 input[type="password"] {
+    border: 1px;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 320px;
+    height: 30px;
+    box-sizing: border-box;
+    -webkit-transition: 0.1s;
+    transition: 0.1s;
+    outline: none;
+}
+.form2 input[type="password"]:focus {
+    border: 1px solid grey;
+}
+.button0{
+    margin-top: 10px;
+    margin-left: 260px;
+    background-color: cornflowerblue;
+    padding: 10px 15px;
+    width: 40px;
+}
+.no-account{
+    margin-left: 15px;
+}
+.no-account .button1{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.button1{
+    background-color: cornflowerblue;
+    padding: 12px 15px;
+    width: 30%;
+    height: 30px;
+}
+.button0:hover{
+    background-color: blue;
+}
+.button1:hover{
+    background-color: blue;
+}
+.forgot{
+    margin-top: 30px;
+    margin-left: 10px;
+    font-size: large;
+    color: grey;
+}
+.reset{
+    color: grey;
+    margin-left: 15px;
+}
+.reset-style{
+    background-color: cyan;
+    padding: 5px 8px;
+    width: 30%;
+}
+.reset-style:hover{
+    background-color: darkcyan;
+}
+#footer{
+    margin-top: 5px;
+    text-align: center;
+    color: green;
+} 
